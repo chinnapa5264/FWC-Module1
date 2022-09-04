@@ -19,8 +19,8 @@ void setup() {
 void loop ()
 {
 C = digitalRead(4);//LSB
-B = digitalRead(5);
-A = digitalRead(6);;//MSB
+B = digitalRead(3);
+A = digitalRead(2);;//MSB
 X= A || C;
 Y= A || (!A && C) || (B && C);
 if(X=Y) 
