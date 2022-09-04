@@ -1,4 +1,4 @@
-.include "/home/chinnapareddy/m328Pdef.inc"
+.include "/home/ubuntu/m328Pdef.inc"
 
 ldi r30, 0b00100000 ;identifying output pin 13
 out DDRB,r30
