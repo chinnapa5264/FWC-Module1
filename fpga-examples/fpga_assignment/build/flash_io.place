@@ -1,0 +1,5 @@
+#Block Name x   y   z    pcf_line
+#----- --  --  -    ----
+$iopadmap$flash.r  22  32  0  # set_io r		34
+$iopadmap$flash.g  24  32  0  # set_io g		39
+$iopadmap$flash.b  30  32  0  # set_io b		38
