@@ -1,0 +1,23 @@
+#Block Name   x   y   z    pcf_line
+#------------ --  --  -    ----
+in_data(0)     8   3  0  # set_io in_data(0)   IO_2
+in_data(1)    10   3  0  # set_io in_data(1)   IO_3
+in_data(2)    12   3  0  # set_io in_data(2)   IO_4
+in_data(3)    14   3  0  # set_io in_data(3)   IO_5
+in_data(4)    16   3  0  # set_io in_data(4)   IO_6
+in_data(5)    18   3  0  # set_io in_data(5)   IO_7
+in_data(6)    20   3  0  # set_io in_data(6)   IO_8
+in_data(7)    24   3  0  # set_io in_data(7)   IO_10
+$iopadmap$down_counter.count  30  32  0  # set_io count(0)   IO_18
+$iopadmap$down_counter.count_1  28  32  0  # set_io count(1)   IO_19
+$iopadmap$down_counter.count_2  26  32  0  # set_io count(2)   IO_20
+$iopadmap$down_counter.count_3  24  32  0  # set_io count(3)   IO_21
+$iopadmap$down_counter.count_4  22  32  0  # set_io count(4)   IO_22
+$iopadmap$down_counter.count_5  20  32  0  # set_io count(5)   IO_23
+$iopadmap$down_counter.count_6  18  32  0  # set_io count(6)   IO_24
+$iopadmap$down_counter.count_7  16  32  0  # set_io count(7)   IO_25
+latch         14  32  0  # set_io latch  IO_26
+dec           12  32  0  # set_io dec  IO_27
+div           10  32  0  # set_io div  IO_28
+$iopadmap$down_counter.zero   8  32  0  # set_io zero  IO_29
+$iopadmap$down_counter.clk   6  32  0  # set_io clk  IO_30

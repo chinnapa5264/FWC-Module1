@@ -1,0 +1,13 @@
+Netlist_File: flash.net Netlist_ID: SHA256:a528ff9f56d43febd557e6f2523a239a27f49587dbcb517ec2c900650e867034
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+g_LUT2_O.t_frag	22	11	0	#0
+$iopadmap$flash.g	24	32	0	#1
+$iopadmap$flash.r	22	32	0	#2
+C		22	3	0	#3
+$iopadmap$flash.b	30	32	0	#4
+A		18	3	0	#5
+$false		3	1	0	#6
+$true		2	1	0	#7
